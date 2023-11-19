@@ -1,0 +1,152 @@
+header nav ul li a {
+    color: #fff;
+}
+
+
+main.menu-left-right {
+    background: url("/assets/images/index-background.webp");
+    background-color: rgba(0, 0, 0, 0.615);
+    background-blend-mode: multiply;
+    padding-top: 5rem;
+}
+
+main div.wrapper {
+    padding-top: 2rem;
+    background-color: rgba(252, 252, 252, 0.267);
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    box-shadow: 0px 3px 30px rgba(79, 79, 79, 0.657);
+    border-radius: 1.3rem;
+    border: 1px solid #fff;
+    backdrop-filter: blur(5px);
+}
+
+main div.wrapper section.left-view {
+    padding: 1rem;
+    grid-column: 1 / 5;
+    border-right: 1px dashed aliceblue;
+}
+
+main div.wrapper section.right-view {
+    padding: 1rem;
+    grid-column: 5 / 13;
+}
+
+.wrapper .header  h1 {
+    color: orange;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper .header h2 {
+    color: aliceblue;
+    font-family: agbalumo;
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: center;
+}
+
+div.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+div.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.caption {
+    margin-top: 2rem;
+}
+
+div.caption h3 {
+    color: aliceblue;
+    font-family: agbalumo;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.address {
+    color: aquamarine;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: italic;    
+}
+
+section.right-view {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.main_course, .starters {
+    margin-top: 1rem;
+    margin-inline: auto;
+    display: grid;
+    row-gap: 1rem;
+}
+
+.main_course li, .starters li {
+    /* background-color: aliceblue; */
+    padding: 3px;
+    display: grid;
+}
+
+.main_course li .top, .starters li .top {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    
+}
+
+.top h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: orange;
+}
+
+.top small {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+.des {
+    font-size: 11px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);  
+    font-family: sans-serif;
+}
+
+.left li, .right li {
+    padding: 3px 10px;
+    border-radius: 1rem;
+}
+
+section ul li:hover {
+    background-color: rgb(234, 234, 232);
+    cursor: pointer;
+}
+
+
+section ul li:hover > p, section ul li:hover > .top small {
+    color: black;
+    transition: all ease-in-out 250ms;
+}

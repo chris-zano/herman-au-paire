@@ -1,0 +1,101 @@
+.nav-link {
+    color: aliceblue;
+}
+
+main.container {
+   display: grid; 
+   background: url('/assets/images/index-background.webp') no-repeat;
+   background-size: cover;
+   background-color: rgba(19, 18, 18, 0.432);
+   background-blend-mode: multiply;
+   justify-content: center;
+   align-items: center
+}
+main.container section {
+    display: grid;
+}
+
+main.container section div.text > * {
+    color: #fff;
+    text-align: center;
+}
+@keyframes pop {
+    0% {
+        color: #4d4a4a;
+    }
+    10% {
+        color: #7e7a7a;
+    }
+    20% {
+        color: #bcb8b8;
+    }
+    30% {
+        color: #e7dfdf;
+    }
+    40% {
+        color: #f4ebeb;
+    }
+    50% {
+        color: #ffffff;
+    }
+    60% {
+        color: #f4ebeb;
+    }
+    70% {
+        color: #e7dfdf;
+    }
+    80% {
+        color: #bcb8b8;
+    }
+    90% {
+        color: #7e7a7a;
+    }
+    100% {
+        color: #4d4a4a;
+    }
+
+}
+
+div.text h1 {
+    font-family: sans-serif;
+    font-size: 72px;
+    transition: color ease-in-out;
+    animation: pop 3s infinite;
+}
+
+div.text h2 {
+    font-family: agbalumo;
+    font-weight: 100;
+}
+
+div.button-menu {
+    background-color: #fff;
+    cursor: pointer;
+    margin: 2rem auto;
+    width: 170px;
+    border: 1px solid #111;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0px 3px 30px rgb(26, 26, 26);
+    transition: all ease-in-out 250ms;
+}
+
+div.button-menu:hover {
+    background-color: #111;
+}
+
+
+div.button-menu a {
+    color: #111;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+div.button-menu:hover > a {
+    color: #fff;
+}
+
