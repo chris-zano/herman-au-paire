@@ -4,7 +4,7 @@
 
 main.container {
    display: grid; 
-   background: url('/assets/images/index-background.webp') no-repeat;
+   background: url('../assets/images/index-background.webp') no-repeat;
    background-size: cover;
    background-color: rgba(19, 18, 18, 0.432);
    background-blend-mode: multiply;

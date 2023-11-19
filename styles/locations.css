@@ -16,7 +16,7 @@ header nav ul li a {
 }
 
 main.locations-main {
-    background: url("/assets/images/au-paire-locations.jpg");
+    background: url("../assets/images/au-paire-locations.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.538);
     background-blend-mode: multiply;

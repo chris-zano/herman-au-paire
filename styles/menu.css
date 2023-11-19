@@ -4,7 +4,7 @@ header nav ul li a {
 
 
 main.menu-left-right {
-    background: url("/assets/images/index-background.webp");
+    background: url("../assets/images/index-background.webp");
     background-color: rgba(0, 0, 0, 0.615);
     background-blend-mode: multiply;
     padding-top: 5rem;
